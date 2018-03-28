@@ -13,6 +13,7 @@ setup(
     author_email='paul@pauldsmith.org.uk',
     url='https://github.com/papadeltasierrra/travislint',
     packages=['travislint'],
+    python_requires='>=2.7, <4',
     install_requires=[
         'requests',
         'PyYaml'        

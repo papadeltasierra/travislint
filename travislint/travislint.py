@@ -18,7 +18,7 @@ requests.packages.urllib3.disable_warnings()    # pylint: disable=no-member
 
 URI_LINTER = 'https://api.travis-ci.org/lint'
 LINT = 'lint'
-KEY='key'
+KEY = 'key'
 MESSAGE = 'message'
 
 

@@ -1,7 +1,7 @@
 ====================
 travislint |builds|
 ====================
-Disclaimer: I have no connection to `travis-ci`_ at all other than being a satisfied customer.  I wrote this utility to avoid having to install Ruby, dependencies etc in order to run the travis-ci command line tool which does far more than I actually needed.
+Disclaimer: I have no connection to `travis-ci`_ at all other than being a satisfied customer.  I wrote this utility to avoid having to install Ruby, dependencies etc in order to run the `travis-ci`_ command line tool which does far more than I actually needed.
 
 What It Does
 ------------

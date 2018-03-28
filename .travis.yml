@@ -1,9 +1,8 @@
 # travislint is written in Python...
 language: python
 
-# and we're only going to validate against Python 2.5, 2.6 & 3.6
+# and we're only going to validate against Python 2.7 & 3.6
 python:
-  - "2.6"
   - "2.7"
   - "3.6"
 
