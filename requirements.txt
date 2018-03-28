@@ -1,0 +1,4 @@
+requests
+PyYaml
+pylint
+flake8
