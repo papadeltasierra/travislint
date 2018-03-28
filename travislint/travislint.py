@@ -87,7 +87,8 @@ def main():
                     for report in result[LINT][msg_type]:
                         print("[X] ", end='')
                         if report[KEY]:
-                            print('in %s section: ' % '.'.join(report[KEY]), end='')
+                            print('in %s section: ' % '.'.join(report[KEY]),
+                                  end='')
 
                         print("%s" % str(report[MESSAGE]))
 
