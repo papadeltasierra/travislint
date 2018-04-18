@@ -11,6 +11,9 @@ script:
   - pylint travislint/travislint.py
 
 deploy:
+  on:
+    branch: master
+    python: '3.6'
   provider: pypi
   user: "papadeltasierra"
   password:
