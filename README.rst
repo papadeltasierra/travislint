@@ -35,9 +35,12 @@ Usage
 
 Under the Covers
 ----------------
+First of all we lint the file as generic YAML using `yamllint`_.
+
 It turns out that the `travis-ci`_ command line tool does not actually lint your file itself but hands off this task to a portion of the `travis-ci`_ website.  So it was simple to do this using the Python `requests`_ package and save you from having to install Ruby etc.
 
 .. _travis-ci: https://travis-ci.org
+.. _yamllint: https://github.com/adrienverge/yamllint
 .. _requests: http://docs.python-requests.org/en/master/
 .. _Virtualenv: https://virtualenv.pypa.io/en/stable/
 .. _Venv: https://docs.python.org/3/library/venv.html
