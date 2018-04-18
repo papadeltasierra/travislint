@@ -1,4 +1,4 @@
 requests
-PyYaml
+yamllint
 pylint
 flake8
