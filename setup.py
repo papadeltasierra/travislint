@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='travislint',
-    version='1.0',
+    version='1.1',
     long_description=readme(),
     description='An application to simplify linting of travis-ci config files.',
     author='Paul D.Smith',
